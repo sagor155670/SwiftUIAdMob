@@ -33,7 +33,7 @@ struct InterstitialAdView: View {
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(.red.gradient)
+//                        .background(.red.gradient)
                         .cornerRadius(10)
                         .shadow(radius: 10)
                         .padding(.horizontal)

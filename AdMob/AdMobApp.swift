@@ -21,10 +21,10 @@ struct AdMobApp: App {
         WindowGroup {
             
             // 1
-            //RewardAdView()
+//            RewardAdView()
             
             // 2
-            //InterstitialAdView()
+//            InterstitialAdView()
             
             // 3
             BannerAdView()

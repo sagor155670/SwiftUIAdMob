@@ -24,7 +24,7 @@ struct BannerView: UIViewControllerRepresentable{
 
 class BannerAdViewController:UIViewController, GADBannerViewDelegate{
     var bannerView:GADBannerView?
-    let adUnitId = "Banner ad Unit ID"
+    let adUnitId = "ca-app-pub-3940256099942544/6300978111"
     
     
     // View Life Cycle

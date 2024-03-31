@@ -20,7 +20,7 @@ class InterstitialAdsManager: NSObject, GADFullScreenContentDelegate, Observable
     
     // Load InterstitialAd
     func loadInterstitialAd(){
-        GADInterstitialAd.load(withAdUnitID: "Interstitial ad ID", request: GADRequest()) { [weak self] add, error in
+        GADInterstitialAd.load(withAdUnitID: "ca-app-pub-3940256099942544/1033173712", request: GADRequest()) { [weak self] add, error in
             guard let self = self else {return}
             if let error = error{
                 print("🔴: \(error.localizedDescription)")

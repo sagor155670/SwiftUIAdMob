@@ -10,10 +10,10 @@ import SwiftUI
 struct BannerAdView: View {
     var body: some View {
         ZStack{
-            Color.black.ignoresSafeArea()
+            Color.white.ignoresSafeArea()
             VStack{
                 BannerView()
-                    .frame(height: 60)
+                    .frame(height: 260)
                 Spacer()
             }
             

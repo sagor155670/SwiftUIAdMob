@@ -34,14 +34,9 @@ struct RewardAdView: View {
                 } label: {
                     Text("Show Reward")
                         .font(.headline)
-                        .foregroundColor(.white)
+                        .foregroundColor(.green)
                         .fontWeight(.bold)
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .background(.blue.gradient)
-                        .cornerRadius(10)
-                        .shadow(radius: 10)
-                        .padding(.horizontal)
+
                 }
                 Spacer()
             }
